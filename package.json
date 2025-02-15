@@ -1,0 +1,40 @@
+{
+  "name": "Soul-Eater",
+  "displayName": "SoulEater",
+  "description": "Dark them westen vibe",
+  "icon": "img/logo.png",
+  "version": "0.0.1",
+  "publisher": "uki",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ukihunter/Soul-Eater-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "visual studio theme",
+    "vscode",
+    "developer theme",
+    "code editor",
+    "syntax highlighting",
+    "modern UI",
+    "dark mode",
+    "custom theme",
+    "uki"
+  ],
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Soul Eater",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Soul Eater-color-theme.json"
+      }
+    ]
+  }
+}
